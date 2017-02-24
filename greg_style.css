@@ -1,0 +1,136 @@
+nav{
+	height:50px;
+	background-color:lightgrey;
+	position:fixed;
+	width:100%;
+	
+
+}
+
+nav h2{
+	position:absolute;
+	left:15px;
+}
+
+nav ul {
+  display: inline-block;
+  list-style: none;
+  right: 30px;
+  position:absolute;
+  
+}
+
+nav li {
+  display: inline-block;
+  font-size: 20px;
+  margin-left: 25px;
+  
+}
+
+
+body{
+    margin:0;
+}
+
+main {
+  padding-top: 100px;
+  
+  
+}
+
+main form{
+	
+	padding-left: 120px;
+	
+}
+
+form input{
+	display:inline-block;
+	width:500px;
+	height:25px;
+
+}
+
+
+
+form img{
+	display:inline-block;
+	width:30px;
+	border:1px solid lightgrey;
+	position:relative;
+	top: 12px;
+	
+}
+
+.container{
+	width:400px;
+	height: 40px;
+	left: 120px;
+	font-size:0;
+	position: relative;
+	border-radius: 5px;
+	position:relative;
+	top:40px;
+	display:inline-block;
+	border: 1px solid lightgrey;
+	color:black;
+
+
+
+}
+
+.quarter_box{
+	height:40px;
+	width:25%;
+	display:inline-block;
+	box-sizing: border-box;
+	font-size: 12px;
+
+	
+	
+
+
+}
+.half_box{
+	height:40px;
+	width:50%;
+	display:inline-block;
+	box-sizing: border-box;
+	font-size: 12px;
+	
+	
+	
+
+}
+
+.box-two{
+	border-right: 1px solid lightgrey;
+	border-left: 1px solid lightgrey;
+}
+
+.container p {
+	text-align: center;
+
+}
+
+.search_results{
+	position: relative;
+	left: 80px;
+	top:80px;
+}
+.result{
+	list-style: none;
+	margin-bottom:15px;
+}
+
+.listing-date, .listing-location{
+	color: darkgrey;
+}
+
+.listing-title{
+	font-weight:bold;
+	font-size:20px;
+	color: blue;
+	margin-right:10px;
+	margin-left:10px;
+}
